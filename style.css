@@ -1,0 +1,47 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+}
+
+:root {
+    font-size: 20px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    font-family:cursive;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+body {
+    background-color: rgb(4, 174, 163);
+    background-position: cover;
+    display: flex;
+    min-height: 250px;
+    min-width: 150px;
+    border: 5px solid rgb(0, 248, 240);
+    justify-content:center;
+    gap: 80px;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(32, 171, 217);
+    font-size: 20px;
+    border: 1px solid black;
+    transition: 0.5s;
+    border-radius: 100px;
+}
+
+img:hover{
+    border-radius: 10px;
+    height: 190px;
+    width: 160px;
+    transform: rotate(360deg);
+    transition:  1s;
+    filter: drop-shadow(0 0 20px black);
+    
+}
